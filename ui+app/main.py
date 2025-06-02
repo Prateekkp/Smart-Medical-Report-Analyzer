@@ -4,7 +4,7 @@ from pdf_ocr import extract_text_from_pdf, extract_text_from_image
 from llm_groq import ask_groq_llm
 
 st.set_page_config(
-    page_title="🧠 Smart Medical Report Analyzer",
+    page_title=" Smart Medical Report Analyzer",
     page_icon="🧠",  
     layout="wide"
 )
