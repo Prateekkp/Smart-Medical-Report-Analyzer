@@ -1,7 +1,7 @@
 import requests
-import os
+import streamlit as st
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # Ya Streamlit secrets mein rakho
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 GROQ_BASE_URL = "https://api.groq.com/openai/v1"  # Yeh example endpoint hai; apne docs check kar lena
 
 def ask_groq_llm(prompt):
